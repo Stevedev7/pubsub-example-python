@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+google-cloud-pubsub = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+pub="python pub.py"
+sub="python sub.py"
+sub1="python my-sub.py"
+sub2="python my-sub-2.py"
